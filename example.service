@@ -7,7 +7,7 @@ Wants=network-online.target
 Type=simple
 Environment=PYTHONUNBUFFERED=1
 WorkingDirectory=/path/to/airboj
-ExecStart=/usr/local/bin/pipenv run python3 /path/to/airboj/main.py
+ExecStart=/usr/local/bin/pipenv run main
 Restart=always
 
 [Install]
