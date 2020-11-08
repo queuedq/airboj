@@ -30,7 +30,6 @@ def updateRecord(record):
   fields = {
     FieldName.LINK.value: link,
     FieldName.TITLE.value: title,
-    FieldName.SOLVED.value: datetime.now(tz=timezone(timedelta(hours=9))).date().isoformat()
   }
   airtable.update(record['id'], fields)
 

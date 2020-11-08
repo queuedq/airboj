@@ -11,4 +11,3 @@ class FieldName(Enum):
   NUMBER = '번호'
   TITLE = '제목'
   LINK = '링크'
-  SOLVED = '푼 날짜'
