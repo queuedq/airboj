@@ -43,7 +43,10 @@ def loop():
 
 def main():
   while True:
-    loop()
+    try:
+      loop()
+    except:
+      pass
     sleep(5)
 
 if __name__ == '__main__':
